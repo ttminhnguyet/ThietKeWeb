@@ -2,3 +2,33 @@ padding -> khoảng cách giữa chữ và viền
 text-decoration: none -> không có đường gạch chân khi gắn link
 hr -> đường kẻ ngang
 figure -> căn lề hình ảnh
+
+-------------------FORM-----------------
+ 1> Các thuộc tính của input:
+        - id
+        - class
+        - radio : tạo lựa chọn và chỉ được chọn 1 trong nhiều option
+        - checkbox: tạo lựa chọn và được chọn nhiều lựa chọn 
+        - checked: để cài tự chọn mặc định (dùng cho checkbox và radio)
+        - name
+        - value
+        - placeholder: dùng để mô tả cho input đó (chức năng giống label nhưng placeholder hiển thị trong ô input và khi user nhập giá trị vào thì mất)
+        - size: đơn vị là số, dùng để quy định chiều dài cho input
+        - pattern="[0-9]{10}": Yêu cầu số điện thoại phải có đúng 10 chữ số ([0-9] có nghĩa là chỉ cho phép các ký tự số từ 0 đến 9, và {10} nghĩa là chuỗi phải có đúng 10 ký tự).
+        -...
+2> Các thuộc tính của button 
+        - Có các type sau:
+                            + submit: gửi thông tin đến serve để xử lý
+                            + Reset: xóa hết thông tin đã nhập trên form
+3> select: 
+            <select>
+                <option value="" selected> </option> <!-- dùng selectec để chọn mặc định-->
+                <option value="" selected> </option>
+            </select>
+
+4> Textarea: 
+                <textarea rows="giá trị số" cols="giá trị số"></textarea>
+
+5> Fieldset: 
+            - Tạo ra bộ khung cho form
+            - Bên trong thường sử dụng thêm thẻ <legend></legend> 
